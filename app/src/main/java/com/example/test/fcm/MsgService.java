@@ -31,6 +31,8 @@ public class MsgService extends FirebaseMessagingService {
 
         String title=notification.getTitle();
         String msg=notification.getBody();
+        System.out.println(title+"00000000000"+msg+"111111111111111111111111111111111");
+
         sendNotification(title,msg);
     }
 
